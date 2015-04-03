@@ -1,0 +1,30 @@
+/*
+============================================================================
+ Name        : LESSA resource header file LESSA.hrh
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : This file contains declarations for constants of LESSA.
+               The file can be included in C++ or resource file.
+============================================================================
+*/
+
+#ifndef LESSA_HRH
+#define LESSA_HRH
+
+enum TLESSACommandIds
+    {
+    ELESSACmdAppTest = 1
+    };
+
+enum TLESSATabViewId
+    {
+    ELESSAView1Tab= 1,
+    ELESSAView2Tab
+    };
+ 
+
+
+
+
+#endif      // LESSA_HRH

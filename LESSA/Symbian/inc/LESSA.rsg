@@ -1,0 +1,10 @@
+#define R_LESSA_HOTKEYS                           0x8f6f004
+#define R_LESSA_VIEW1                             0x8f6f005
+#define R_LESSA_MENUBAR_VIEW1                     0x8f6f006
+#define R_LESSA_VIEW1_MENU                        0x8f6f007
+#define R_LESSA_VIEW2                             0x8f6f008
+#define R_LESSA_MENUBAR_VIEW2                     0x8f6f009
+#define R_LESSA_VIEW2_MENU                        0x8f6f00a
+#define R_LESSA_APP_MENU                          0x8f6f00b
+#define R_LESSA_STATUS_PANE                       0x8f6f00c
+#define R_LESSA_NAVI_DECORATOR                    0x8f6f00d

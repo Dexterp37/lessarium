@@ -1,0 +1,24 @@
+Q: ERROR: failed to find version information for LINK.EXE
+
+A: Check if you have link.exe file somewhere on your hard drive and that PATH environment variable points to it (if you use Visual Studio, run vsvars32.bat)
+
+Q: Certain cpp files doesn't seem to be compiled at all and i always get some unresolved external errors!
+
+A: LESSA directory structure is very easy to browse: you know with the blink of an eye, what file does what. This is because every folder, has same file names. Because of this and because of compiler default options, intermediate object files (.obj) which are compiled source code, keep overwriting each other. Use compiler /Fo directive (or if you are using an IDE, use options dialog) to make compiler use input file path as destination path.
+
+Q: "fatal error C1010: unexpected end of file while looking for precompiled header directive"
+
+A: If you are using MS Visual C++, simply disable Precompiled Headers from Project Options
+
+Q: "Failed to open C:\Programmi\Microsoft\LESSAaif.rsg.new
+ERROR: RCMake failed: (Resources): rcomp.exe failed with code -2. (Reason: Unknown error)"
+
+A: Don't use Visual Studio menu to open the project, but simply open it from its folder and rebuild it from scratch
+
+Q: Visual Studio doesn't start Epoc32 when debugging, what now?
+
+A: Simply go to Tools->SDK Configuration Manager then Enable/Disable SDK and press OK. It should work now..
+
+Q: Debugger says "Invalid  file line.  This breakpoint will not be hit"
+
+A: This means the file uses unix end of line format. You have to change it to Windws (CR LF). In Visual Studio go to File -> Advanced Save Options.

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<content name="a song" path="/path/to/" remote="http://izs.com">Description</content>
+<content name="a picture" path="/path/to/" remote="http://izs.com">Description</content>
+<content name="a document" path="/path/to/" remote="http://izs.com">Description</content>
+<content name="fourth element" path="/path/to/" remote="http://izs.com">Description</content>
+<content name="Scratch" path="/path/to/" remote="http://izs.com">Description</content>

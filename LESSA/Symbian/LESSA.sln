@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LESSA", "LESSA.vcproj", "{69BB6D07-D237-4A95-99C6-78E8687AE14C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Deb_S60_23_WINSCW = Deb_S60_23_WINSCW
+		Debug = Debug
+		Rel_S60_23_ARMI = Rel_S60_23_ARMI
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{69BB6D07-D237-4A95-99C6-78E8687AE14C}.Deb_S60_23_WINSCW.ActiveCfg = Deb_S60_23_WINSCW|Win32
+		{69BB6D07-D237-4A95-99C6-78E8687AE14C}.Deb_S60_23_WINSCW.Build.0 = Deb_S60_23_WINSCW|Win32
+		{69BB6D07-D237-4A95-99C6-78E8687AE14C}.Debug.ActiveCfg = Debug|Win32
+		{69BB6D07-D237-4A95-99C6-78E8687AE14C}.Debug.Build.0 = Debug|Win32
+		{69BB6D07-D237-4A95-99C6-78E8687AE14C}.Rel_S60_23_ARMI.ActiveCfg = Rel_S60_23_ARMI|Win32
+		{69BB6D07-D237-4A95-99C6-78E8687AE14C}.Rel_S60_23_ARMI.Build.0 = Rel_S60_23_ARMI|Win32
+		{69BB6D07-D237-4A95-99C6-78E8687AE14C}.Release.ActiveCfg = Release|Win32
+		{69BB6D07-D237-4A95-99C6-78E8687AE14C}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

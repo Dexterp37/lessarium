@@ -1,0 +1,24 @@
+;
+; Installation file for LESSA application
+;
+;Languages
+&EN
+;
+; UID is the app's UID
+;
+#{"LESSA"},(0x05926b6a),1,0,0
+;
+;Supports Series 60 v 2.0
+;This line indicates that this installation is for the Series 60 platform v2.0
+;This line must appear _exactly_ as shown below in the sis file
+;If this line is missing or incorrect, the sis file will not be able
+;to be installed on Series 60 v2.0 platforms
+(0x101F7960), 0, 0, 0, {"Series60ProductID"} 
+;
+; Four files to install
+;
+"..\..\..\\Epoc32\release\thumb\urel\LESSA.app"		  -"!:\system\apps\LESSA\LESSA.app"
+"..\..\..\\Epoc32\data\z\system\apps\LESSA\LESSA.rsc"         -"!:\system\apps\LESSA\LESSA.rsc"
+"..\..\..\\Epoc32\data\z\system\apps\LESSA\LESSA_caption.rsc" -"!:\system\apps\LESSA\LESSA_caption.rsc"
+"..\..\..\\Epoc32\data\z\system\apps\LESSA\LESSA.aif"         -"!:\system\apps\LESSA\LESSA.aif"
+

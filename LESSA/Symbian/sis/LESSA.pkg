@@ -1,0 +1,18 @@
+; LESSA.pkg
+
+; Languages
+&EN
+
+; Header
+#{"LESSA"},(0x05926b6a), 0, 1, 1
+
+; Platform compatibility
+(0x10200BAB), 0, 0, 0, {"Series60ProductID"}
+
+; Target
+"C:\Symbian\8.1a\S60_2nd_FP3\Epoc32\release\armi\UREL\LESSA.app"-"!:\system\apps\LESSA\LESSA.app"
+"C:\Symbian\8.1a\S60_2nd_FP3\Epoc32\data\z\system\apps\LESSA\LESSAaif.rSC"-"!:\system\apps\LESSA\LESSAaif.rSC"
+"C:\Symbian\8.1a\S60_2nd_FP3\Epoc32\data\z\system\apps\LESSA\LESSA_caption.rSC"-"!:\system\apps\LESSA\LESSA_caption.rSC"
+"C:\Symbian\8.1a\S60_2nd_FP3\Epoc32\data\z\system\apps\LESSA\LESSA.rSC"-"!:\system\apps\LESSA\LESSA.rSC"
+
+

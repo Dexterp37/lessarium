@@ -1,0 +1,59 @@
+/*
+============================================================================
+ Name        : LESSA.loc
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : This is a localisation file for LESSA
+               A .loc file is the one and only place where the logical
+			   strings to be localised are defined. 
+============================================================================
+*/
+
+// LOCALISATION STRINGS
+
+//d:Command in options menu.
+//d:Example application spesific command.
+//l:list_single_popup_submenu_pane_1
+//
+#define qtn_appl_test "Test"
+
+// menu exit
+#define qtn_appl_exit "Exit"
+
+//d:Command in options menu.
+//d:Example application spesific command.
+//l:list_single_popup_submenu_pane_1
+//
+#define qtn_appl_option_item "<Application menu item>"
+
+//d:Command in options menu.
+//d:Example command for view 1.
+//l:list_single_popup_submenu_pane_1
+//
+#define qtn_view1_option_item "<View1 menu item>"
+
+//d:Command in options menu.
+//d:Example command for view 2.
+//l:list_single_popup_submenu_pane_1
+//
+#define qtn_view2_option_item "<View2 menu item>"
+
+//d:Name of the view 1 tab.
+//d:
+//l:
+//
+#define qtn_view1_tab "View1"
+
+//d:Name of the view 2 tab.
+//d:
+//l:
+//
+#define qtn_view2_tab "View2"
+
+// example caption strings for app
+#define qtn_app_caption_string "LESSA"
+
+#define qtn_app_short_caption_string "LESSA"
+
+
